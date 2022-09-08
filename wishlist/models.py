@@ -1,7 +1,6 @@
 from django.db import models
 
-class WishlistItem(models.Model):
+class ItemWishlist(models.Model):
     item_name = models.CharField(max_length=50)
     item_price = models.IntegerField()
     description = models.TextField()
-# Create your models here.
